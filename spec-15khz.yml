@@ -1,0 +1,12 @@
+# 15khz
+
+H_FREQ_MIN: 15625
+H_FREQ_MAX: 15750
+
+H_BLANK_PERCENT: 0.22 # percentage of h_total time spent on blanking
+H_SYNC_WIDTH_PERCENT: 0.08 # percentage of h_total time spent on h_sync_width
+H_PORCH_RATIO: 0.22 # FRONT -> BACK
+
+V_BLANK_PERCENT: 0.08 # percentage of total frame time spent on blanking
+V_SYNC_WIDTH_PERCENT: 0.01 # percentage of v_blank time spent on v_sync_width
+V_PORCH_RATIO: 0.11 # FRONT -> BACK

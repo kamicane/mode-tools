@@ -1,0 +1,23 @@
+/* EDID */
+#define VERSION 1
+#define REVISION 3
+
+/* Display */
+#define CLOCK {{P_CLOCK_KHZ}} /* kHz */
+#define XPIX {{H_ACTIVE}}
+#define YPIX {{V_ACTIVE}}
+#define XY_RATIO XY_RATIO_4_3
+#define XBLANK {{H_BLANK}}
+#define YBLANK {{V_BLANK}}
+#define XOFFSET {{H_OFFSET}}
+#define XPULSE {{H_PULSE}}
+#define YOFFSET {{V_OFFSET}}
+#define YPULSE {{V_PULSE}}
+#define DPI 72
+#define VFREQ {{V_FREQ_INT}} /* Hz */
+#define TIMING_NAME "{{NAME}}"
+/* No ESTABLISHED_TIMINGx_BITS */
+#define HSYNC_POL 1
+#define VSYNC_POL 1
+
+#include "edid.S"
