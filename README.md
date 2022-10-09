@@ -11,12 +11,16 @@ command line mode calculator, parser, converter and analyzer
 - `mode-tools --help`
 - `mode-tools calc --help`
 
-### example
+### Examples
 
-this example calculates using KHz pixel clock (for MiSter for example)
+Calculate a 320x240 modeline for 15khz monitors
 
-./mode-tools.js calc 1280 576 59.7 --pixel-clock-precision 1000 --spec spec-30khz.yml
+`./mode-tools.js calc 320 240 60 --spec path/to/spec-15khz.yml`
 
-## warning
+Calculate 1280x576@59.7 using KHz pixel clock precision (MiSter uses KHz), for 30khz monitors
+
+`./mode-tools.js calc 1280 576 59.7 --pixel-clock-precision 1000 --spec path/to/spec-30khz.yml`
+
+## Warning
 
 I take no responsibility if you fry your CRT
