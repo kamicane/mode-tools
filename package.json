@@ -6,6 +6,7 @@
   "bin": {
     "mode-tools": "./mode-tools.js"
   },
+  "license": "MIT",
   "author": "Valerio Proietti <kamicane@gmail.com>",
   "repository": "github:kamicane/mode-tools",
   "homepage": "https://github.com/kamicane/mode-tools#readme",
